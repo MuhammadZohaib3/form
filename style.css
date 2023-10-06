@@ -1,0 +1,85 @@
+body{
+    /* 
+    margin:100px 50px 100px 50px; */
+  background-color:dimgrey;
+  /* margin-right: 20px; */
+ 
+}
+.box{
+    background-color: #fff;
+    /* box-sizing:inherit;
+    
+    border: 1px solid black;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-top: 120px;
+    */
+    height: 400px;
+   max-width: 400px;
+    margin: 100px 50px 100px 450px ;
+    border-radius: 8px;
+}
+.label{
+   /* min-width: 23px;
+
+    height: 200px; */
+    color: #316FF6;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.user{
+    margin: 10px;
+    border: 1px solid  #316FF6;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.user input{
+    outline: none;
+ 
+}
+.button{
+    color:#fff;
+    background: #316FF6;
+
+     font-size: x-large;
+     font-family: sans-serif;
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+     border-radius: 6px;
+    /* border-radius: 6px;
+   ;
+    font-family: sans-serif;
+    ;
+    ;
+    ; */
+}
+.forgotten{
+    color:#316FF6;
+     font-family: sans-serif;
+     display: flex;
+     justify-content: center;
+     border-radius: 6px;
+     margin: 10px;
+
+}
+.hr{
+    margin: 10px;
+ 
+}
+.creat{
+    color:#fff;
+    background-color: #42B72A;
+     font-family: sans-serif;
+     display: flex;
+     justify-content: center;
+     border-radius: 6px;
+     margin: 10px;
+     hover
+
+}

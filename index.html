@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./app.js" deferx></script> 
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+</head>
+<body> -->
+    <!-- <div class="login_box">
+    <input type="email" id="email" />
+    <input type="password" id="password" />
+    <button onclick="login()">login</button>
+    <button onclick="signup()">signup</button>
+</div>
+<div class="welcome_box">
+    Welcome User: <span id="user"></span>
+</div>
+   
+<button onclick="logout('hello')">logout</button>
+
+<script type="module">
+const firebaseConfig = {
+    apiKey: "AIzaSyBAV37kaAIabzJ0FKLpyxw0axWIpZVRGtk",
+    authDomain: "user-df7a4.firebaseapp.com",
+    projectId: "user-df7a4",
+    storageBucket: "user-df7a4.appspot.com",
+    messagingSenderId: "682613407860",
+    appId: "1:682613407860:web:13d9a469a4116b27391121",
+    measurementId: "G-5Z24LVPSEW"
+  };
+
+  // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+  
+
+
+  firebase.auth().onAuthStateChanged((user) => {
+    if(user) {
+                console.log(user);
+                document.getElementById("user").innerHTML = user.email;
+                document.getElementById("login_box").style.display = "none";
+                document.getElementById("welcome_box").style.display = "block";
+            } else {
+                document.getElementById("login_box").style.display = "block";
+                document.getElementById("welcome_box").style.display = "none";
+            }
+        });
+</script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="box">
+        <form class="form" id="form">
+        <label for="" class="label">facebook</label><br>
+        <div class="user">
+            <input type="text" placeholder="UserName" id="name" size="45">
+        </div>
+
+        <div class="user">
+            <input type="email" placeholder="Email" id="email" size="45">
+        </div>
+
+        <div class="user">
+            <input type="password" placeholder="Password" id="password " size="45">
+        </div>
+        
+        <div class="button">
+            <button type="button" onclick="login('password')">Log in</button>
+        </div>
+
+        <div class="forgotten">
+            <input type="button" value="forgotten password">
+        </div>
+        <hr class="hr">
+       
+        <div class="creat">
+            <input type="button" value="Create new account">
+        </div> 
+        
+    </form>
+    </div>
+     <button onclick="">log</button>
+        <!-- <image class="object-fill h-80 w-96"
+         src="https://picsum.photos/200/300"
+         ></image> -->
+
+  
+    <!-- <div id="login_box">
+        <input type="email" id="email" />
+        <input type="password" id="password" />
+        <button onclick="login()">Login</button>
+        <button onclick="signup()">Signup</button>
+    </div>
+    <div id="welcome_box">
+        Welcome User: <span id="user"></span>
+        <div>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <script type="module">
+
+        const firebaseConfig = {
+            apiKey: "...",
+            authDomain: "...",
+            projectId: "...",
+            storageBucket: "...",
+            messagingSenderId: "...",
+            appId: "...",
+            measurementId: "..."
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        firebase.auth().onAuthStateChanged((user) => {
+            if (user) {
+                console.log(user);
+                document.getElementById("user").innerHTML = user.email;
+                document.getElementById("login_box").style.display = "none";
+                document.getElementById("welcome_box").style.display = "block";
+            } else {
+                document.getElementById("login_box").style.display = "block";
+                document.getElementById("welcome_box").style.display = "none";
+            }
+        });
+    <
+</div>/script> -->
+    <!-- <script src="./app.js"></script> -->
+</body>
+
+</html>
+ 
+</body>
+</html>
